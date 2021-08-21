@@ -1,0 +1,17 @@
+@import '../../scss/mixins.scss';
+
+.logo {
+  @include reset-link;
+
+  position: relative;
+  font-family: "Work sans", sans-serif;
+  font-size: 20px;
+  padding-left: 37px;
+}
+
+.logo__icon {
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: 0;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import MainHeader from '../main-header/main-header';
+import Page from "../page/page";
 
 export default function App() {
   return (
-    <MainHeader/>
+      <Page />
   );
 }

@@ -1,0 +1,120 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.main-footer {
+  display: grid;
+  grid-template-columns: 319fr 218fr 266fr 224fr 103fr;
+  align-items: start;
+  gap: 10px;
+
+  margin-top: auto;
+  padding: 57px 98px 20px;
+  box-sizing: border-box;
+  min-height: 222px;
+  background-color: $gray-background-color;
+}
+
+.main-footer__logo {
+  font-weight: bold;
+}
+
+.main-footer__address {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 150%;
+  color: $basic-gray-color;
+
+  margin-top: 12px;
+}
+
+.main-footer__navigation-list {
+  @include reset-list;
+
+  padding-left: 5px;
+}
+
+.main-footer__navigation-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: $basic-black-color;
+
+  margin-bottom: 9px;
+}
+
+.main-footer__navigation-link {
+  @include reset-link;
+}
+
+.main-footer__phone-container {
+  position: relative;
+
+  &--short {
+    padding-left: 29px;
+
+    &:before {
+      content: url('../../img/phone.svg');
+      width: 10px;
+      height: 16px;
+    }
+  }
+
+  &--long{
+    padding-left: 33px;
+
+    &:before {
+      content: url('../../img/handset.svg');
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &:before {
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+}
+
+.main-footer__phone {
+  @include reset-link;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: $basic-black-color;
+}
+
+.main-footer__phone-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: $basic-gray-color;
+
+  margin: 0;
+}
+
+.main-footer__social {
+  @include reset-list;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding-top: 3px;
+  padding-left: 1px;
+}
+
+.main-footer__social-item {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

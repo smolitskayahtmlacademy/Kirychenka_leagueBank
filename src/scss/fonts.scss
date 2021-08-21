@@ -38,3 +38,13 @@
   url("../fonts/Worksansbold.woff2") format("woff2"),
   url("../fonts/Worksansbold.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Work sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Work sans"),
+  url("../fonts/Worksans.woff2") format("woff2"),
+  url("../fonts/Worksans.woff") format("woff");
+}
