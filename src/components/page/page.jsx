@@ -8,6 +8,7 @@ export default function Page() {
     <div className='page'>
       <MainHeader />
       <main>
+        <h1 className='visually-hidden'>Страница конвертера валют</h1>
         <Credit></Credit>
       </main>
       <MainFooter />
