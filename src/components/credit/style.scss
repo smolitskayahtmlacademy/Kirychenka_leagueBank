@@ -1,0 +1,55 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.credit {
+  min-height: 400px;
+  background-color: rgba(32, 39, 179, 1);
+  background-image: url('../../img/credit-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 103px 98px 20px;
+  box-sizing: border-box;
+}
+
+.credit__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 170px;
+}
+
+.credit__title {
+  margin: 0 0 36px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(224, 225, 234, 1);
+}
+
+.credit__text {
+  margin: 0 0 8px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: rgba(246, 247, 255, 1);
+
+  order: -1;
+}
+
+.credit__button {
+  @include reset-link;
+
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: $basic-black-color;
+  padding: 15px 36px 16px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: $gray-background-color;
+}

@@ -1,5 +1,6 @@
 import MainHeader from '../main-header/main-header';
 import MainFooter from "../main-footer/main-footer";
+import Credit from '../credit/credit';
 import './style.scss'
 
 export default function Page() {
@@ -7,7 +8,7 @@ export default function Page() {
     <div className='page'>
       <MainHeader />
       <main>
-
+        <Credit></Credit>
       </main>
       <MainFooter />
     </div>
