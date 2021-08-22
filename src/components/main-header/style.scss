@@ -10,16 +10,7 @@
 }
 
 .main-header__logo {
-  @include reset-link;
-
-  font-family: "Work sans", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
   margin-right: 63px;
-}
-
-.main-header__logo-icon {
-  margin-right: 9px;
 }
 
 .main-header__navigation {

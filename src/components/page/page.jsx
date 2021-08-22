@@ -3,10 +3,13 @@ import MainFooter from "../main-footer/main-footer";
 import './style.scss'
 
 export default function Page() {
-    return (
-        <div className='page'>
-            <MainHeader/>
-            <MainFooter />
-        </div>
-);
+  return (
+    <div className='page'>
+      <MainHeader />
+      <main>
+
+      </main>
+      <MainFooter />
+    </div>
+  );
 }

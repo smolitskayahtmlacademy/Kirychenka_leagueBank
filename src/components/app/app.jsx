@@ -3,6 +3,6 @@ import Page from "../page/page";
 
 export default function App() {
   return (
-      <Page />
+    <Page />
   );
 }
